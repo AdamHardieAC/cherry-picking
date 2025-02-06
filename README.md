@@ -17,3 +17,4 @@ When it is not obvious how to apply a change, the following happens:
     No other modifications are made.
 
 sequence commit 1
+sequence commit 2
