@@ -19,3 +19,4 @@ When it is not obvious how to apply a change, the following happens:
 sequence commit 1
 sequence commit 2
 sequence commit 3
+sequence commit 4
