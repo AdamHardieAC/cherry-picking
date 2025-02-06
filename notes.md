@@ -13,7 +13,13 @@ If you create a `feature` branch and someone pushed changes to the main branch o
 - cherry-pick
 
 
-Cherry-picking is a powerful feature of git, however it's important to understand when it's useful and possible alternatives. A few scenarios in which a cherry-pick is appropriate are: 
-- Pulling a commit or sequence of commits from a stale feature branch to an active one.
-- Bug hot fix which can be committed independently from the work on a feature branch.
+Cherry-picking is a powerful feature of git, however it's important to understand when it's useful and possible alternatives (rebase and merge). A few scenarios in which a cherry-pick is appropriate are: 
+
+Pulling a commit or sequence of commits from a stale feature branch to an active one.
+- Single commit: `git cherry-pick <SHA-value>` 
+- For the latest commit on a branch`git cherry-pick <branch-name>`
+- Sequence of commits: `git cherry-pick <SHA-from-commit>^..<SHA-to-commit>`
+
+Bug hot fix which can be committed independently from the work on a feature branch.
+- Single commit: `git cherry-pick <SHA-value>` 
 
