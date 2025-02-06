@@ -10,3 +10,10 @@ Using `git cherry-pick <SHA-value>`, will take the commit specific to the SHA pr
 
 If you create a `feature` branch and someone pushed changes to the main branch of the repo, there's a couple of options to resolve this.
 - rebase
+- cherry-pick
+
+
+Cherry-picking is a powerful feature of git, however it's important to understand when it's useful and possible alternatives. A few scenarios in which a cherry-pick is appropriate are: 
+- Pulling a commit or sequence of commits from a stale feature branch to an active one.
+- Bug hot fix which can be committed independently from the work on a feature branch.
+
